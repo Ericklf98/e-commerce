@@ -1,0 +1,37 @@
+.componente__category{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.btn__category{
+    border-radius: 25px;
+    outline: none;
+    width: 190px;
+    height: 40px;
+    background-color: #10bb9d;
+    color: white;
+    border: none;
+    margin: 15px;
+    font-size: 18px;
+    
+}
+.btn__category:hover{
+    cursor: pointer;
+    background-color: white;
+    border: solid 2px #10bb9d;
+    color: #10bb9d;
+}
+@media (max-width:770px) {
+    .btn__category{
+        border-radius: 15px;
+        width: 150px;
+        height: 40px;
+        margin: 8px;
+        font-size: 13px;
+    }
+    .componente__category{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}

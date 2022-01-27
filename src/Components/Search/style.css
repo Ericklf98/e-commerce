@@ -1,0 +1,9 @@
+.selector{
+    min-width: 300px;
+}
+@media (max-width:770px) {
+    .selector{
+        width: 100%;
+        height: 10px;
+    }
+}

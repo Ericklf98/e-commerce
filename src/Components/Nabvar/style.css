@@ -1,0 +1,64 @@
+.nabvar__design{
+    background-color: #03466b;
+    height: 65px;
+}
+.texto__nabvar{
+    color: white;
+}
+.texto__nabvar:hover{
+    cursor: pointer;
+    color: white;
+}
+.selector__nav{
+    width: 500px;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+.boton_nav{
+    border-radius: 8px;
+    outline: none;
+    width: 130px;
+    height: 40px;
+    background-color: #10bb9d;
+    color: white;
+    border: none;
+    margin: 15px;
+    margin: 0 0 0 8px;
+    text-decoration: none;
+}
+.btn__text{
+    font-size: 25px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media (max-width:770px) {
+    .selector{
+        width: 150px;
+        height: 20px;
+        display: flex;
+        justify-content: center;
+    }
+    .selector__nav{
+        width: 200px;
+        height: 45px;
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+    }
+    .boton_nav{
+        width: 100px;
+        height: 40px;
+        font-size: 13px;
+        display: flex;
+        align-items: center;
+    }
+    .btn__text{
+        font-size: 15px;
+        margin: auto;
+    }
+    
+}
